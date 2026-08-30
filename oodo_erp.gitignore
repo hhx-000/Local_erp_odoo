@@ -1,0 +1,21 @@
+cd ~/local-erp-odoo
+cat > .gitignore << 'EOF'
+# 数据库数据（不要上传！）
+odoo-db-data/
+odoo-web-data/
+
+# 配置文件中的敏感信息
+config/
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量文件（如果包含密码）
+.env
+*.env.local
+
+# Odoo 生成的临时文件
+filestore/
+EOF

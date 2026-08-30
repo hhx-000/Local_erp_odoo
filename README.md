@@ -20,3 +20,14 @@ docker-compose up -d
 ── README.md
 
 # Local_erp_odoo
+
+## 技术亮点
+- 🐳 使用 Docker Compose 实现一键部署
+- 🔧 支持自定义插件开发（./addons 目录）
+- 📦 数据持久化配置
+- 🔒 敏感信息通过环境变量管理
+
+## 学习成果
+- ERP 系统的采购业务流程（询价单 → 采购订单 → 收货 → 入库）
+- Docker 容器化部署实践
+- 供应链管理系统的基本架构
