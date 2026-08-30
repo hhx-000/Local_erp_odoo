@@ -15,7 +15,7 @@ docker-compose up -d
 ## 项目结构
 
 ── docker-compose.yml    # Docker 编排配置
-── gitignore/               # Odoo 配置文件（已忽略）
+── gitignore/            # Odoo 配置文件（已忽略）
 ── addons/               # 自定义插件目录
 ── README.md
 
