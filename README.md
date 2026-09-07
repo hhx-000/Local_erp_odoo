@@ -10,6 +10,7 @@
 ##快速启动
 
 ```bash
+cd ~/local-erp-odoo
 docker-compose up -d
 
 ## 项目结构
